@@ -14,22 +14,23 @@ en: &DEFAULT_EN
     #title: Welcome to our Studio!
     text: Welcome to my online portfolio!
     button: More about me
-    buttonlink: "#services"
+    buttonlink: "#Summary"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
+  Summary:
+    title: "Summary"
+    text: "A brief overview about me "
+    section: Summary
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "BSc Geoinfromatics graduate"
+        desc: "Skilled in spatial data analysis, remote sensing & geostatistics"
+        icon: fa-duotone fa-user-graduate
+        style: "--fa-primary-color: #03234c; --fa-secondary-color: #03d99d;"
+      - title: "Former IT technician Assistant"
+        desc: "Worked for almost 3 years as an IT technician assistant at the University of Pretoria"
+        icon: fa-solid fa-desktop
+      - title: "Transitioning to Data Science"
+        desc: "Currently in the ALX data science course"
+        icon: fa-solid fa-laptop-code
 
   portfolio:
     title: "Portfolio"
@@ -37,10 +38,10 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+  Experience:
+    title: "Experience"
+    text: "The follow timeline showcases my journey so far as a recent graduate"
+    section: experience
     # left is the default
     #start_align: "left"
     events:
@@ -49,54 +50,48 @@ en: &DEFAULT_EN
         desc: "Graduated with  77% average with subjects in IT, geography, physics and mathematics"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Started academic journey at the University of Pretoria"
+        year: "February 2021"
+        desc: "Started my qualification course at the university"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Top 15% Golden Key Honour Merit💫"
+        year: "2022"
+        desc: "Awarded the top 15% merit by the Golden Key Honour Society and gained an invitation to the Golden Key Honour Society membership"
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "Graduated with BSc Geoinformatics at the University of Pretoria"
+        year: "April 2024"
+        desc: "Graduated with 71% average"
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "More awaits in the near future"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
+  About:
+    title: "About Me"
+    text: "My bio"
+    body: "Michelle Madiba is a Geoinformatics graduate from the University of Pretoria and a Golden Key Honour Society member, recognized for being in the top 15% of her class. Passionate about serving and mentoring, she worked as a first-year student mentor, helping new students navigate university life. A multi-passionate and curious individual, Michelle has diverse experience, from working as an IT technician assistant, ensuring seamless tech operations, to participating in cheerleading, showcasing her teamwork and discipline. She is currently expanding her expertise through the ALX Professional Foundations and Data Science courses, with aspirations to become a geospatial data scientist and data consultant, bridging data-driven insights with real-world impact."
+    section: About
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  #Skillset:
+  #  section: Skillset
+   # max-height: 100px
+    #horizontal-scrolling: "" #"yes/no"
+    #list:
+     # - title: "Soft skills"
+      #  url: https://github.com/raviriley/agency-jekyll-theme
+       # logo: assets/img/clients/envato.jpg
+      #- title: "Technical skills"
+       # url: https://github.com/raviriley/agency-jekyll-theme
+        #logo: assets/img/clients/designmodo.jpg
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+  Skillset:
+    title: "My skillset"
+    text: "I possess the following skills"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
+    section: Skillset
     people:
       - name: "Kay Garland"
         role: "Lead Designer"
@@ -131,7 +126,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "I would like to discuss how I can provide my value in the data industry!"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
