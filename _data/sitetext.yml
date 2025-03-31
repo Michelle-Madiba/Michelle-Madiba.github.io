@@ -75,17 +75,17 @@ en: &DEFAULT_EN
     body: "Michelle Madiba is a Geoinformatics graduate from the University of Pretoria and a Golden Key Honour Society member, recognized for being in the top 15% of her class. Passionate about serving and mentoring, she worked as a first-year student mentor, helping new students navigate university life. A multi-passionate and curious individual, Michelle has diverse experience, from working as an IT technician assistant, ensuring seamless tech operations, to participating in cheerleading, showcasing her teamwork and discipline. She is currently expanding her expertise through the ALX Professional Foundations and Data Science courses, with aspirations to become a geospatial data scientist and data consultant, bridging data-driven insights with real-world impact."
     section: about
 
-  #Skillset:
-  #  section: Skillset
-   # max-height: 100px
-    #horizontal-scrolling: "" #"yes/no"
-    #list:
-     # - title: "Soft skills"
-      #  url: https://github.com/raviriley/agency-jekyll-theme
-       # logo: assets/img/clients/envato.jpg
-      #- title: "Technical skills"
-       # url: https://github.com/raviriley/agency-jekyll-theme
-        #logo: assets/img/clients/designmodo.jpg
+  Skillset:
+    section: Skillset
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "Soft skills"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "Technical skills"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
 
   skillset:
     title: "My skillset"
