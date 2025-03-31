@@ -11,16 +11,16 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "About me"
+    - title: "Summary"
+      section: summary
+    - title: "About Me"
       section: about
+    - title: "Skillset"
+      section: skillset
     - title: "Portfolio"
       section: portfolio
-    - title: "Skillset"
-      section: about
     - title: "Experience"
-      section: timeline
-    - title: "Team"
-      section: team
+      section: experience
     - title: "Contact"
       section: contact
     #- title: "Theme Source"
